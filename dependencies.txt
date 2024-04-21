@@ -1,0 +1,47 @@
+ripgrep
+fzf
+zsh
+feh
+htop
+dunst
+libnotify
+udiskie
+lxappearance
+xcape
+diff-so-fancy
+tmux
+tmuxp
+tldr
+man
+man-pages
+neovim
+git
+openssh
+unzip
+
+rxvt-unicode
+networkmanager
+
+i3-wm
+ttf-dejavu
+arandr
+xorg
+i3status
+i3lock
+dmenu
+xsel
+zathura-pdf-mupdf
+imagemagick
+scrot
+feh
+
+## scripting install
+dialog
+
+## Archlinux
+zsh-syntax-highlighting
+zsh-completions
+
+## AUR
+urxvt-tabbedex-mina86-git
+
