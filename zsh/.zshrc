@@ -23,11 +23,10 @@ autoload -U compinit; compinit
 
 # Autocomplete hidden files
 _comp_options+=(globdots)
-source ~/dotfiles/zsh/external/completion.zsh
+source "$ZDOTDIR/external/completion.zsh"
 
 # bd to jump to parent directory
 source "$ZDOTDIR/external/bd.zsh"
-#source ~/dotfiles/zsh/external/bd.zsh
 
 autoload -Uz prompt_purification_setup; prompt_purification_setup
 
