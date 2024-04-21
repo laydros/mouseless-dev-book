@@ -18,6 +18,13 @@ ln -sF "$DOTFILES/nvim/init.vim" "$XDG_CONFIG_HOME/nvim"
 rm -rf "$XDG_CONFIG_HOME/X11"
 ln -s "$DOTFILES/X11" "$XDG_CONFIG_HOME"
 
+#######
+# git #
+#######
+
+rm -rf "$XDG_CONFIG_HOME/git"
+ln -sf "$DOTFILES/git" "$XDG_CONFIG_HOME"
+
 ######
 # i3 #
 ######
