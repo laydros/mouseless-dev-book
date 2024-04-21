@@ -184,6 +184,9 @@ bindsym $mod+CTRL+Shift+l exec --no-startup-id $i3lockwall
 bindsym $mod+x exec dunstctl close-all
 bindsym Ctrl+BackSpace exec dunstctl history-pop
 
+# reload xcape config when using external keyboard
+bindsym $mod+z exec "setxkbmap -option 'caps:ctrl_modifier';xcape -e 'Caps_Lock=Escape' $"
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
